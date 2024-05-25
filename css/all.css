@@ -51,7 +51,7 @@ table {
 
 body {
   font-family: "Noto Sans TC", sans-serif;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 img {
@@ -62,4 +62,42 @@ img {
 
 *, *:before, *:after {
   box-sizing: border-box;
+}
+
+.wrap {
+  max-width: 1920px;
+  padding-top: 32px;
+}
+.wrap a {
+  text-decoration: none;
+}
+
+.header {
+  max-width: 880px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+.header img {
+  width: 90px;
+  margin-right: 318px;
+}
+.header-text {
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-text li {
+  padding: 4px 8px 4px 8px;
+}
+
+.content {
+  display: flex;
+}
+.content img {
+  width: 1154px;
+}
+.content-link img {
+  width: 38px;
 }/*# sourceMappingURL=all.css.map */
