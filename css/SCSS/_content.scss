@@ -1,15 +1,48 @@
 .content{
     display: flex;
-    
+    justify-content: flex-end;
+    align-items: center;
+    gap:24px 0;
     img{
         width: 1154px;
     }
     &-link{
+        display: flex;
+        margin-top: 60px;
+        // @each $key,$value in $icon{
+        //     $width: map-get($value,'width');
+        //     $height: map-get($value,'height');
+        //     $padding:map-get($value, 'padding');
+        //     &-#{$key}{
+        //         padding:$padding;
+        //         @if $key == yt{
+        //             padding-top: 13px;
+        //             padding-bottom: 12px;
+        //         }
+        //         img{
+        //             width: $width;
+        //             height: $height;
+        //         }
+        //     }
+        // }
+        
         img{
-            width: 38px;
-        }    
+            width: 56px;
+        }
     }
 }
+.content-title{
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+.content-text {
+    p{  
+        display: flex;
+        gap: 0 8px;
+    }
+}
+
 
 
 
