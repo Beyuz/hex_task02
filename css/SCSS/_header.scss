@@ -7,9 +7,9 @@
 }
 
 .header{
-    max-width: 880px;
     display:flex;
-    margin-left: 17.5%;
+    flex-wrap:wrap;
+    margin-left: 10%;
     margin-bottom: 28px;
     img{
         width: 90px;
@@ -23,6 +23,26 @@
         li{
         padding: 4px 8px 4px 8px; 
         }
+    }
+    &-btn{ 
+        display: none; 
+        cursor: pointer;  
+    }
+    &-control:checked + &-btn .open {
+        display: none;
+    }
+    &-control:checked + &-btn .close {
+        display: inline;
+    }
+    &-control:not(:checked) + &-btn .open {
+        display: inline;
+    }
+    &-control:not(:checked) + &-btn .close {
+        display: none;
+    }
+    &-control{
+        
+        display: none;
     }
 }
 
