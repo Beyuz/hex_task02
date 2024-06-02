@@ -1,16 +1,21 @@
 .wrap{  
     max-width: 1920px;
+    margin: 0 auto;
     padding-top :32px;
+    
     a{
         text-decoration: none;
     }  
+    
 }
-
 .header{
+    max-width: 100%;
     display:flex;
-    flex-wrap:wrap;
-    margin-left: 10%;
-    margin-bottom: 28px;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-bottom: 28px;
+    
+    border-bottom: 1px $F1 solid;
     img{
         width: 90px;
         margin-right: 318px;
@@ -23,6 +28,8 @@
         li{
         padding: 4px 8px 4px 8px; 
         }
+
+
     }
     &-btn{ 
         display: none; 
@@ -41,7 +48,6 @@
         display: none;
     }
     &-control{
-        
         display: none;
     }
 }

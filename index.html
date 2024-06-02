@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>任務2</title>
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <div class="wrap">
@@ -12,10 +13,10 @@
             <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg" alt="index-logo">
             <input type="checkbox" name="" id="header-control" class="header-control">
             <label for="header-control" class="header-btn">
-              <svg class="header-icon open" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+              <svg class="header-icon open" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40" fill="#5f6368">
                 <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
               </svg>
-              <svg class="header-icon close" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+              <svg class="header-icon close" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
             </label>
             <ul class="header-text">
                 <li class="fw-600"><a href="">首頁</a></li>
@@ -25,27 +26,59 @@
                 <li><a href="">聯絡我</a></li>
             </ul>
         </div>
-        <div class="content">
-            <ul>
-                <li class="content-title fw-600"><h1>Hi！我是 Noel</h1></li>
-                <li class="content-text s20-h30"><p>具有 10 年經驗的<span>資深 UI 設計師</span>兼<span>前端工程師</span><p></li>
-                <li class="content-text s20-h30">技術雙修並行，熱衷於優化使用者的網頁體驗</li>
-                <li class="content-text">WEB DEVELOPMENT / BRANDING / UI / UX / APP DESIGN</li>
-                <li class="content-link">
-                    <a href="#" class="content-link-ig">
-                        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg" alt="instagram-logo">
+        <div class="introduce">
+            <ul class="introduce-list">
+                <li class="introduce-title fw-600"><h1>Hi！我是 Noel</h1></li>
+                <li class="introduce-text fs20">具有 10 年經驗的<br><span>資深 UI 設計師</span>兼<span>前端工程師</span><p></li>
+                <li class="introduce-text fs20">技術雙修並行，熱衷於優化使用者的網頁體驗</li>
+                <li class="introduce-text">WEB DEVELOPMENT / BRANDING / UI / UX / APP DESIGN</li>
+                <li class="introduce-link">
+                    <a href="#" class="introduce-link-ig">
+                        <img class="w-56" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg" alt="instagram-logo">
                     </a>
-                    <a href="#" class="content-link-fb">
-                        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg" alt="Facebook-logo">
+                    <a href="#" class="introduce-link-fb">
+                        <img class="w-56" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg" alt="Facebook-logo">
                     </a>
-                    <a href="#" class="content-link-yt">
-                        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/youtube.svg" alt="Youtube-logo">
+                    <a href="#" class="introduce-link-yt">
+                        <img class="w-56" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/youtube.svg" alt="Youtube-logo">
                     </a>
                 </li>
             </ul>
-            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/hero-lg.png?raw=true" alt="introduce">
+            <img class="introduce-hero" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/hero-lg.png?raw=true" alt="introduce">
         </div>
-        <div class="footer"></div>
+        <div class="content">
+            <h2 class="fs32 lh12 fw-600" style="letter-spacing: 0.10em">作品介紹</h2>
+            <ul class="content-list">
+                <li class="content-list-work">
+                    <span class="work-bg"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1.png?raw=true" alt=""></span>
+                    <ul class="group">
+                        <h3 class="fw-700 fs28 lh12 mb-8">星際旅行訂票平台</h3>
+                        <li class="">悠遊宇宙的夢想，從這裡開始實現</li>
+                        <li class="group-label">
+                            <a href="">網頁設計</a><a href="">響應式設計</a><a href="">Bootstrap</a>
+                        </li>
+                        <li class="group-link"><a class="fs20 lh15">完整內容<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></a></li>
+                    </ul>
+                </li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul class="footer-list">
+                <li class="mb-24">
+                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg" alt="logo">
+                </li>
+                <li class="fs20 lh15">若有數位產品設計和開發相關問題</li>
+                <li class="fs20 lh15">歡迎填寫表單，或直接與我聯絡！</li>
+                <li class="mt-24 fs20 lh12">service@hexschool.com</li>
+            </ul>
+            <ul class="footer-link">
+                <li class="footer-link-text fs20"><a href="#"  style="color:white" class="bg-color-black"><img class="w-56" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/list.svg" alt="list-logo">填寫表單</a></li>
+                <li class="footer-link-text fs20"><a href="#"><img class="w-56" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg" alt="instagram-logo">hexschool_demo</a></li>
+                <li class="footer-link-text fs20"><a href="#"><img class="w-56" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg" alt="Facebook-logo">hexschoolTW</a></li>
+            </ul>
+        </div>
         
     </div>
     

@@ -16,11 +16,63 @@
 //     )
 // );
 
+$F1 : #F1F1F1;
+$C1 : #C1C1C1;
+
 .fw-600{
     font-weight: 600;
 }
-.s20-h30{
-    font-size: 20px;
-    line-height: 1.5;
+
+.fw-700{
+    font-weight: 700;
 }
 
+.fs20{
+    font-size:20px;
+}
+
+.fs28{
+    font-size: 28px;
+}
+
+.fs32{
+    font-size: 32px;
+}
+
+
+
+
+
+
+.lh12{
+    line-height: 1.2;
+}
+
+
+.mg-center{
+    margin: 0 auto;
+}
+.mg-rl-14{
+    margin: 0 14% 0 14%;
+}
+
+.mt-24{
+    margin-top: 24px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.w-56{
+    width: 56px;
+}
+
+.bg-color-black{
+    background-color: black;
+    
+}

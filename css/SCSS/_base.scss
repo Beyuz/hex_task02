@@ -1,7 +1,7 @@
 body{
     font-family: "Noto Sans TC",sans-serif; 
     color:#3B3B3B;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 
@@ -14,4 +14,14 @@ img{
 
 *,*:before,*:after{
 	box-sizing: border-box;
+    
+}
+* {
+    outline: 1px solid red;
+  }
+
+
+a{
+    display: block;
+    color: #3B3B3B;
 }
