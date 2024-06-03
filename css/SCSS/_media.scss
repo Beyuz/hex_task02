@@ -39,18 +39,30 @@
                 background-image: url("");
                 padding:0;
                 gap: 24px;
-                .work-bg{
-                    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true");
-                    
-                }
+                
                 img{
                     width: 295px;
                     margin: 0 auto;        
                 }
                 
             }
+            .work1-bg{
+                width: 100%;
+                padding-top: 93px;
+                background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true");          
+            }
+            .work2{
+                &-bg{
+                        
+                }
+                    &-group{
+                        background-color: rgba(10, 16, 19, 0);
+                        padding: 24px 0 0 0;
+                        margin: 0 auto;
+                    }
+            }
             .group{
-                width: 327px;
+                width: 100%;
                 margin: 0 auto;
                 padding:0;
                 color:#5B5B5B;

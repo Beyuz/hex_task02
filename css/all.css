@@ -110,6 +110,10 @@ a {
   margin-top: 24px;
 }
 
+.mt-200 {
+  margin-top: 200px;
+}
+
 .mb-8 {
   margin-bottom: 8px;
 }
@@ -118,12 +122,35 @@ a {
   margin-bottom: 24px;
 }
 
+.mb-200 {
+  margin-bottom: 200px;
+}
+
 .w-56 {
   width: 56px;
 }
 
 .bg-color-black {
   background-color: black;
+}
+
+.work1 {
+  -moz-column-gap: 55px;
+       column-gap: 55px;
+  padding: 80px 0 0 0;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true");
+}
+.work1 .work1-bg {
+  width: 714px;
+}
+
+.work2 {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work2-lg.png?raw=true");
+}
+.work2-group {
+  padding: 200px 110px 200px 312px;
+  margin-right: 51%;
+  background-color: rgba(10, 16, 19, 0.5);
 }
 
 .wrap {
@@ -234,25 +261,21 @@ a {
 }
 .content-list {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .content-list-work {
   width: 100%;
   display: flex;
-  padding: 80px 16.25% 0px 16.25%;
-  -moz-column-gap: 55px;
-       column-gap: 55px;
-  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true");
+  justify-content: center;
+  align-items: center;
   background-size: cover;
-}
-.content-list-work > img {
-  width: 714px;
 }
 .content-list .group {
   display: flex;
   flex-direction: column;
   width: 526px;
   padding: 80px 40px 56px 40px;
-  margin-bottom: 200px;
   background: rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
@@ -355,15 +378,22 @@ a {
     padding: 0;
     gap: 24px;
   }
-  .content-list-work .work-bg {
-    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true");
-  }
   .content-list-work img {
     width: 295px;
     margin: 0 auto;
   }
+  .content-list .work1-bg {
+    width: 100%;
+    padding-top: 93px;
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true");
+  }
+  .content-list .work2-group {
+    background-color: rgba(10, 16, 19, 0);
+    padding: 24px 0 0 0;
+    margin: 0 auto;
+  }
   .content-list .group {
-    width: 327px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
     color: #5B5B5B;
