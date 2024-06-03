@@ -1,7 +1,7 @@
 @media(max-width:1150px){
     
     .header{
-        
+        padding-left: 12px;
         img{
             margin-right: 20%;
         }
@@ -9,6 +9,7 @@
     .introduce{
         flex-direction: column-reverse;
         padding:0 0 40px 0;
+        gap:40px;
         &-title{
             text-align: center;
         }
@@ -29,11 +30,11 @@
             img{
                 width: 40px;
             }
-            
        }
     }
     .content{
         &-list{
+            
             &-work{
                 flex-direction: column;
                 background-image: url("");
@@ -52,14 +53,39 @@
                 background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true");          
             }
             .work2{
-                &-bg{
-                        
+                margin-top: 48px;
+                img{
+                    width: 100%;
+                    content: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work2-sm.png?raw=true");
                 }
-                    &-group{
-                        background-color: rgba(10, 16, 19, 0);
-                        padding: 24px 0 0 0;
-                        margin: 0 auto;
+
+                &-group{
+                    background-color: rgba(10, 16, 19, 0);
+                    padding: 0;
+                    margin: 0 auto;
+                }        
+            }
+            .work3{
+                margin-top: 48px;
+                background: 0;
+                &-group{
+                    flex-wrap: wrap;
+                    padding:0;
+                }
+                &-bg{
+                    width: 100%;
+                    padding:90px 0 90px 0;
+                    background-color: rgba(13, 12, 7, 0.5);
+                    background-blend-mode: multiply;
+                    background-image:url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work3-bg.png?raw=true");
+                    
+                    background-size: cover;
+                    background-position: center center;
+                    img{
+                        width: 295px;
                     }
+                }
+                
             }
             .group{
                 width: 100%;
@@ -91,7 +117,7 @@
 }
 @media(max-width:992px){ 
     .header{
-        margin-left: 5%;
+        
         img{
             margin-right: 70%;
         }
@@ -144,7 +170,7 @@
 @media(max-width:686px){
     .header{
         margin:0 auto;
-        padding-left: 10%;
+        
         img{
             margin-right: 65%;    
         }
