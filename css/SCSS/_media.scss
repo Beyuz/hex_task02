@@ -1,9 +1,10 @@
 @media(max-width:1150px){
     
     .header{
-        padding-left: 12px;
+        padding-left:0;
+        justify-content: space-around;
         img{
-            margin-right: 20%;
+            margin-right: 0;
         }
     }
     .introduce{
@@ -33,6 +34,8 @@
        }
     }
     .content{
+        padding-top:40px;
+        gap:40px;
         &-list{
             
             &-work{
@@ -117,9 +120,10 @@
 }
 @media(max-width:992px){ 
     .header{
-        
+        justify-content: space-between;
         img{
-            margin-right: 70%;
+            margin-right: 0;
+
         }
         &-text{
             display: none;
@@ -139,17 +143,24 @@
 
     .introduce{
         &-list{
-            margin: 0 14% 0 14%;
+            width: 268px;
         }
         &-link{  
             justify-content: space-between;
         }
+        
+    }
+    .service{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        gap:40px;
     }
 
     
     .footer{
         flex-wrap: wrap;
         justify-content: center;
+        background-color: rgba(255,255,255,1);
         background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-sm.png?raw=true");
         background-repeat: no-repeat;
         background-size: cover;
@@ -180,6 +191,16 @@
             text-align: center;
         }
     }
+    .service{
+        background-image: url("");
+        &-item{
+            p{
+                font-size: 24px;
+                line-height: 1.2;
+            }
+            
+        }
+    }
 }
 
 @media(max-width:455px){
@@ -195,20 +216,19 @@
             }
         }     
     }
-
-    .content{
-        &>h2{
-            font-size: 24px;
-            line-height: 1.18333;
-            &::before{
-                content:'';
-                background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-sm.png?raw=true");
-            }
-            &::after{
-                content: '';
-                background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-sm.png?raw=true");
-            }
+    .h2-deco{
+        font-size: 24px;
+        line-height: 1.18333;
+        &::before{
+            content:'';
+            background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-sm.png?raw=true");
+        }
+        &::after{
+            content: '';
+            background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-sm.png?raw=true");
         }
     }
+
+    
 
 }
