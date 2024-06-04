@@ -3,7 +3,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap:24px 0;
+    gap:0 24px;
     &-hero{
         width: 60.10416666666667%;
     }
@@ -37,7 +37,6 @@
 }
 .introduce-text {
     .job-title{
-        
         background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true");
         background-repeat: no-repeat;
         background-position: bottom;

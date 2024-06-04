@@ -21,6 +21,10 @@ $F1 : #F1F1F1;
 $C1 : #C1C1C1;
 
 
+.color-3B{
+    color: #3B3B3B;
+}
+
 .fw-600{
     font-weight: 600;
 }
@@ -100,7 +104,7 @@ $C1 : #C1C1C1;
 }
 
 .job{
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     column-gap:8px;

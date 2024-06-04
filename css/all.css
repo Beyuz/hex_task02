@@ -74,6 +74,10 @@ a {
   color: #3B3B3B;
 }
 
+.color-3B {
+  color: #3B3B3B;
+}
+
 .fw-600 {
   font-weight: 600;
 }
@@ -147,7 +151,7 @@ a {
 }
 
 .job {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   -moz-column-gap: 8px;
@@ -275,7 +279,7 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 24px 0;
+  gap: 0 24px;
 }
 .introduce-hero {
   width: 60.1041666667%;
@@ -383,6 +387,41 @@ a {
   align-items: center;
   color: #3B3B3B;
   gap: 40px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0 120px 0;
+  gap: 80px;
+}
+.article-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.article-list li {
+  width: 416px;
+  margin: 0 auto;
+}
+.article-list li p {
+  width: 400px;
+}
+.article-list-label {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.article-list-label a {
+  display: inline;
+  padding: 4px 12px 4px 12px;
+  border-radius: 16px;
+  background-color: #F1F1F1;
+}
+.article-list-label span {
+  color: #5B5B5B;
+  align-self: center;
 }
 
 .footer {
@@ -548,8 +587,17 @@ a {
     flex-direction: column;
     align-items: center;
   }
+  .introduce-title {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
   .introduce-list {
     width: 268px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   .introduce-link {
     justify-content: space-between;
@@ -584,9 +632,6 @@ a {
   }
   .header img {
     margin-right: 65%;
-  }
-  .introduce-text {
-    text-align: center;
   }
   .service {
     background-image: url("");

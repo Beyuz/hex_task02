@@ -142,8 +142,17 @@
     }
 
     .introduce{
+        &-title{   //**width 213px
+            font-size: 32px;
+            line-height: 1.2;
+            font-weight: 700;
+        }
         &-list{
             width: 268px;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            align-items: center;
         }
         &-link{  
             justify-content: space-between;
@@ -188,7 +197,7 @@
     }
     .introduce{
         &-text{
-            text-align: center;
+            
         }
     }
     .service{
