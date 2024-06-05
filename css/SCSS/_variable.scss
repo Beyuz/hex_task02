@@ -103,6 +103,35 @@ $C1 : #C1C1C1;
     gap:8px;
 }
 
+.line-deco{
+    padding:4px 8px 4px 8px;
+    position: relative;
+    
+    &:hover::after{
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-right:1px #919191 solid;
+        border-top:1px #919191 solid;
+        position: absolute;
+        top: 0;
+        right:0;
+        -webkit-box-reflect: below 16px;
+    }
+    &:hover::before{
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-left:1px #919191 solid;
+        border-top:1px #919191 solid;
+        position: absolute;
+        top: 0;
+        left:0;
+        -webkit-box-reflect: below 16px;
+    }
+    
+}
+
 .job{
     display: flex;
     flex-wrap: wrap;
@@ -138,6 +167,8 @@ $C1 : #C1C1C1;
     text-align: center;
     padding:16px 32px 16px 32px;
 }
+
+
 
 
 .work1{
