@@ -117,8 +117,22 @@
             
         }
     }
+    .article{
+        &-list{
+            // flex-direction: column;
+            li{
+                width: 93.8%;
+                img{
+                    
+                }
+            }
+        }
+    }
 }
-@media(max-width:992px){ 
+@media(max-width:992px){
+    .wrap{
+        padding:0;
+    } 
     .header{
         justify-content: space-between;
         img{
@@ -227,6 +241,9 @@
 }
 
 @media(max-width:455px){
+    .wrap{
+        // padding:0 5px;
+    }
     .header{
         img{
             margin-right: 60%;
@@ -249,6 +266,16 @@
         &::after{
             content: '';
             background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-sm.png?raw=true");
+        }
+    }
+
+    .article{
+        &-list{
+            li{
+                img{
+                    
+                }
+            }
         }
     }
 

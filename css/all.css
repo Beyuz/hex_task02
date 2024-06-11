@@ -250,13 +250,14 @@ a {
 .wrap {
   max-width: 1920px;
   margin: 0 auto;
-  padding-top: 32px;
+  padding: 0 12px;
 }
 .wrap a {
   text-decoration: none;
 }
 
 .header {
+  padding-top: 32px;
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -410,6 +411,7 @@ a {
 }
 
 .article {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -431,14 +433,9 @@ a {
   margin-bottom: 40px;
 }
 .article-list li {
-  width: 416px;
   margin: 0 auto;
 }
-.article-list li p {
-  width: 400px;
-}
 .article-list-label {
-  width: 400px;
   display: flex;
   justify-content: space-between;
 }
@@ -608,8 +605,14 @@ a {
   .content-list .group-label a {
     background-color: #F1F1F1;
   }
+  .article-list li {
+    width: 93.8%;
+  }
 }
 @media (max-width: 992px) {
+  .wrap {
+    padding: 0;
+  }
   .header {
     justify-content: space-between;
   }
